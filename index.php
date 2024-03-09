@@ -1,6 +1,5 @@
-<?php 
-include 'includes/head.php';
-?>
+<?php include ('db.php')?>
+<?php include ('includes/head.php');?>
 
 <main class="container p-4">
   <div class="row">
@@ -26,7 +25,7 @@ include 'includes/head.php';
             <textarea name="desciption" cols="30" rows="2" class="form-control" placeholder="Task Description">
             </textarea>
           </div>
-          <input type="submit" name="save_task" class="btn btn-succes btn-block" value="Save Task">
+          <input type="submit" name="save_task" class="btn btn-success btn-block" value="Save Task">
         </form>
       </div> 
     </div>
